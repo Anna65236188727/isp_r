@@ -1,0 +1,64 @@
+
+.kartinka{
+    width: 200px;
+    light: 200px;    
+}
+
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+}
+
+.col{
+    border: 0;
+    font: 30px COMIC SANS MS;
+}
+
+.row{
+    max-width:100%
+}
+
+body {
+    background: #000 url(2.png); 
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+    background-size: 100%;
+
+}
+
+.header{
+    width: 100%;
+}
+
+.head-banner {
+    width: 100%;
+    background-image: url('access/img/head-banner.png');
+    aspect-ratio: 9/1;
+    background-size: cover;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CF2222;
+    align-items: center;
+    padding: 8px;
+}
+
+.nav-menu * {
+    margin: 0px;
+}
+
+.norm-text {
+    font-size: 16px;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-white {
+    color: #fff;
+}
