@@ -1,0 +1,69 @@
+.kartinka{
+width: 200px;
+light: 200px;
+}
+
+.my-flex-cont {
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+   }
+   
+
+.col{
+border: 0;
+font: 30px COMIC SANS MS;
+}
+
+button{
+    width:300px;
+    height: 40px;
+    background: #CF2222;
+    font: 25px Rasa;
+    margin-left: 350px Rasa;
+}
+
+.row{
+width:100%;
+}
+
+body {
+background: #000 url(image/2.jpg);
+background-attachment: fixed; /* Фон страницы фиксируется */
+background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+background-size: 100%;
+}
+
+.header{
+width: 100%;
+font-size: 30px;
+}
+
+.head-banner {
+width: 100%;
+background-image: url(image/banner.jpg);
+aspect-ratio: 9/1;
+background-size: cover;
+}
+
+.nav-menu {
+display: flex;
+justify-content: space-around;
+background-color: #CF2222;
+align-items: center;
+padding: 8px;
+}
+
+.nav-menu * {
+margin: 0px;
+}
+
+.norm-text {
+font-size: 16px;
+}
+
+
+.color-white {
+color: #fff;
+}
